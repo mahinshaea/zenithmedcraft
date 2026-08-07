@@ -266,6 +266,40 @@ document.addEventListener('DOMContentLoaded', () => {
       ],
       image: 'images/phototherapy-mediray.jpg',
       brochure: 'brochures/PHOTO THERAPY (MEDIRAY -05+).pdf'
+    },
+    '7': {
+      title: 'Ultrasonic Cleaner',
+      desc: 'High-efficiency ultrasonic cleaning system designed for CSSD applications, delivering powerful cavitation-based cleaning for surgical instruments and accessories.',
+      specs: [
+        '23 / 33 KHz Variable Frequency',
+        'Microcontroller-Based Auto Tuning with Overload Protection',
+        'Durable MOSFET/IGBT Generator Technology',
+        'Deep Cavitation Cleaning for Microscopic Crevices',
+        'Stainless Steel Cleaning Tank with Safety Controls'
+      ],
+      image: 'images/ultrasonic cleaner.png',
+      brochure: '#contact'
+    },
+    '8': {
+      title: 'NOT-5600 Surgical Table',
+      desc: 'Professional & reliable electrically operated multi-purpose surgical table designed for superior patient positioning, excellent C-arm accessibility, and maximum stability across a wide range of surgical procedures.',
+      specs: [
+        'Electrically Powered Tabletop with ergonomic hand controller',
+        '300 mm Powered Longitudinal Slide for complete C-arm access',
+        '26° Trendelenburg & Reverse Trendelenburg positions',
+        '21° Left & Right Lateral Tilt for flexible patient positioning',
+        'Flex & Reflex Positioning with adjustable head, back, and split leg sections',
+        'Maximum Patient Weight Capacity of 360 kg',
+        'Optional Automatic Tabletop Leveling for one-touch horizontal return',
+        'Optional Carbon Fiber Orthopedic Extension for fluoroscopic imaging',
+        'Optional Built-in Kidney Bridge for thoracic & renal procedures',
+        'Backup Battery with Automatic AC/DC Switchover',
+        'Auxiliary Emergency Control Panel',
+        'Central Floor Locking Mechanism with foot pedal',
+        'Heavy-Duty Swivel Casters for smooth transport'
+      ],
+      image: 'images/operatio theatre tables.jpeg',
+      brochure: '#contact'
     }
   };
 
