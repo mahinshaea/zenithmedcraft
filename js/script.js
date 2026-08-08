@@ -216,7 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
       brochure: 'brochures/PlaZen MEDWORLD_New-1 (1).pdf'
     },
     '3': {
-      title: 'MEDILAP 250 MDD+',
+      title: '',
       desc: 'High-performance 250W Electro Surgical Generator suitable for precise monopolar cut, monopolar coag, and bipolar procedures in general surgery, gynecology, and orthopedics.',
       specs: [
         '250 Watts Maximum Power Output',
@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded', () => {
       brochure: 'brochures/MEDILAP 250 MDD+ (1) (1).pdf'
     },
     '4': {
-      title: 'MEDILAP 400 DEXTER',
+      title: '',
       desc: 'Heavy-duty 400W Electro Surgical Generator featuring advanced bipolar & monopolar operating modes for major open surgeries and endoscopic procedures.',
       specs: [
         '400 Watts Power Output with Instant Tissue Feedback',
@@ -242,7 +242,7 @@ document.addEventListener('DOMContentLoaded', () => {
       brochure: 'brochures/ELECTRO SURGICAL UNIT 400 DEXTER.pdf'
     },
     '5': {
-      title: 'MEDILAP 400 MAESTRO',
+      title: '',
       desc: 'Flagship Touchscreen-Enabled 400W Electro Surgical Unit featuring tissue-sensing technology, integrated vessel sealing, and laparoscopic compatibility.',
       specs: [
         'High-Resolution Smart Touchscreen Interface',
@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', () => {
       brochure: 'brochures/ELECTRO SURGICAL UNIT 400 MAESTRO.pdf'
     },
     '6': {
-      title: 'MEDIRAY-05+ Phototherapy',
+      title: '',
       desc: 'Single Surface LED Phototherapy System engineered specifically for hyperbilirubinemia / neonatal jaundice treatment with high irradiance blue LED light.',
       specs: [
         'High Intensity Blue LED Spectrum (450nm - 470nm peak)',
@@ -313,7 +313,7 @@ document.addEventListener('DOMContentLoaded', () => {
         modalTitle.innerText = data.title;
         modalDesc.innerText = data.desc;
         modalImage.src = data.image;
-        modalBrochureLink.href = data.brochure;
+        // modalBrochureLink.href = data.brochure;
 
         modalSpecs.innerHTML = '';
         data.specs.forEach(spec => {
