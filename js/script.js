@@ -281,7 +281,7 @@ document.addEventListener('DOMContentLoaded', () => {
       brochure: '#contact'
     },
     '8': {
-      title: 'NOT-5600 Surgical Table',
+      title: 'Surgical Tables',
       desc: 'Professional & reliable electrically operated multi-purpose surgical table designed for superior patient positioning, excellent C-arm accessibility, and maximum stability across a wide range of surgical procedures.',
       specs: [
         'Electrically Powered Tabletop with ergonomic hand controller',
@@ -299,6 +299,26 @@ document.addEventListener('DOMContentLoaded', () => {
         'Heavy-Duty Swivel Casters for smooth transport'
       ],
       image: 'images/operatio theatre tables.jpeg',
+      brochure: '#contact'
+    },
+    '9': {
+      title: 'OT Lights',
+      desc: 'High-intensity operating theatre lighting system designed for precise, shadow-free illumination in surgical procedures and clinical environments.',
+      specs: [
+        'Intensity: 1,60,000 Lux',
+        'Spot Diameter: 100 - 150 mm',
+        'Depth Diameter: 10 - 25 cm',
+        'Colour Temperature: 3800 - 4800 K',
+        'Focus: Manual',
+        'LED Average Life: >50000 Hrs.',
+        'Number of LEDs: 60',
+        'Diameter of Light: 690mm',
+        'Intensity Control: 10~100 Digital Touch',
+        'Power Supply: 220V/50Hz AC',
+        'Power Consumption: 48 Watt',
+        'Special Function: Dual Memory Function'
+      ],
+      image: 'images/OT-LIGHTS.jpg',
       brochure: '#contact'
     }
   };
