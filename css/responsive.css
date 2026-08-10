@@ -106,6 +106,31 @@
 
 /* Mobile (Max Width 768px) */
 @media (max-width: 768px) {
+  :root {
+    --header-height: 72px;
+  }
+
+  .container {
+    padding: 0 18px;
+  }
+
+  .navbar {
+    height: var(--header-height);
+  }
+
+  .nav-container {
+    padding: 0 8px;
+  }
+
+  .nav-logo {
+    max-width: 62px;
+  }
+
+  .brand-logo-image {
+    width: 52px;
+    height: 52px;
+  }
+
   .section-padding {
     padding: 70px 0;
   }
@@ -114,8 +139,44 @@
     font-size: 2.1rem;
   }
 
+  .hero {
+    min-height: auto;
+    padding-top: calc(var(--header-height) + 30px);
+    padding-bottom: 54px;
+  }
+
+  .hero-grid {
+    gap: 28px;
+  }
+
   .hero-title {
     font-size: 2.4rem;
+    line-height: 1.08;
+    margin-bottom: 18px;
+  }
+
+  .hero-subtitle {
+    font-size: 1.08rem;
+    margin-bottom: 28px;
+  }
+
+  .hero-actions {
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+
+  .hero-actions .btn {
+    padding: 14px 22px;
+    font-size: 0.92rem;
+  }
+
+  .hero-badge {
+    padding: 8px 14px;
+    font-size: 0.76rem;
+  }
+
+  .hero-image-wrapper {
+    max-width: 520px;
   }
 
   .services-grid {
@@ -171,13 +232,51 @@
 
 /* Small Mobile (Max Width 480px) */
 @media (max-width: 480px) {
+  :root {
+    --header-height: 68px;
+  }
+
+  .navbar {
+    padding: 0 4px;
+  }
+
+  .nav-container {
+    gap: 8px;
+  }
+
+  .nav-logo {
+    max-width: 50px;
+  }
+
+  .brand-logo-image {
+    width: 46px;
+    height: 46px;
+  }
+
+  .hero {
+    padding-top: calc(var(--header-height) + 24px);
+  }
+
   .hero-title {
     font-size: 2rem;
+    letter-spacing: -0.6px;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .hero-badge {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
   }
 
   .hero-actions {
     flex-direction: column;
     width: 100%;
+    align-items: stretch;
   }
 
   .hero-actions .btn {
@@ -193,7 +292,7 @@
   }
 
   .floating-card {
-    display: none; /* Hide extra floaters on tiny screens to avoid overflow */
+    display: none;
   }
 
   .floating-svg-icon {
